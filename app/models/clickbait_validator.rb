@@ -1,4 +1,4 @@
-class MyValidator < ActiveModel::Validator
+class ClickbaitValidator < ActiveModel::Validator
   def validate(record)
 
     clickbaits = ["Won't Believe", "Guess", "Secret", "Top[number]"]
